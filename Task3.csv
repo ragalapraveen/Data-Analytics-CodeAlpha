@@ -1,0 +1,5 @@
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(data=df, x='Price Range', ax=axes[1], palette='pastel')
+
+Dashboard saved as books_dashboard.png

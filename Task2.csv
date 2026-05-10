@@ -1,0 +1,35 @@
+                              Book Title    Price
+0                   A Light in the Attic  Â£51.77
+1                     Tipping the Velvet  Â£53.74
+2                             Soumission  Â£50.10
+3                          Sharp Objects  Â£47.82
+4  Sapiens: A Brief History of Humankind  Â£54.23
+Shape: (20, 2)
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 20 entries, 0 to 19
+Data columns (total 2 columns):
+ #   Column      Non-Null Count  Dtype 
+---  ------      --------------  ----- 
+ 0   Book Title  20 non-null     object
+ 1   Price       20 non-null     object
+dtypes: object(2)
+memory usage: 452.0+ bytes
+None
+                  Book Title    Price
+count                     20       20
+unique                    20       20
+top     A Light in the Attic  Â£51.77
+freq                       1        1
+Most expensive: 57.25
+Cheapest: 13.99
+Average price: 38.048500000000004
+Missing values:
+ Book Title    0
+Price         0
+dtype: int64
+
+Books under £30: 7 out of 20
+Duplicate books: 0
+Possible outliers:
+                                            Book Title  Price
+15  Our Band Could Be Your Life: Scenes from the A...
